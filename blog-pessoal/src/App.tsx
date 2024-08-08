@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Home from './pages/home/Home';
 import Navbar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
@@ -19,7 +18,7 @@ function App() {
             </Routes>
           </div>
           <Footer />
-        </BrowserRouter>
+    </BrowserRouter>
     </>
 );
 }
